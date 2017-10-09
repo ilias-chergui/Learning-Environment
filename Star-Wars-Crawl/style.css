@@ -1,0 +1,39 @@
+body {
+  background-image: url("https://cdn.pixabay.com/photo/2016/01/27/15/25/space-1164579_1280.png");
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+p {
+  color: #F1CF24;
+}
+
+.star-wars {
+  width: 600px;
+  height: 1000px;
+  margin: 0 auto;
+  text-align: justify;
+  transform: perspective(400px) rotateX(25deg);
+}
+
+.crawl {
+  position: relative;
+  transform-origin: 50% 100%;
+  font-size: 70px;
+  animation-name: starwars;
+  animation-duration: 30s;
+  animation-timing-function: linear;
+}
+
+@keyframes starwars {
+  0% {
+    top: 0;
+    transform: rotateX(25deg) translateZ(0);
+  }
+
+  100% {
+    top: -10000px;
+    transform: rotateX(70deg) translateZ(1000px);
+  }
+}
