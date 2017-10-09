@@ -1,0 +1,45 @@
+body {
+  background-image: url("http://jleporcq.free.fr/BaladesUnes/MontcornetSecheval/Images/Grandes/MontcornetSecheval007.JPG");
+}
+
+.carte {
+  height: 550px;
+  width: 500px;
+  background-color: #ddd;
+  background-image: linear-gradient(120deg, #7DDF8D, white);
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+
+.P {
+  width: 300px;
+  margin-left: 100px;
+}
+
+ img {
+   height: 200px;
+   width: 200px;
+   transform: rotate(-90deg);
+   margin: 0 auto;
+   border-radius: 50%;
+   border: 5px solid white;
+ }
+
+h3 {
+  margin-top: 40px;
+  font-size: 30px;
+}
+
+ul {
+  padding-left: 0;
+}
+
+i {
+  margin: 5px 10px auto;
+}
+
+p {
+  font-style: italic;
+}
