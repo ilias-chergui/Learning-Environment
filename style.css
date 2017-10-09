@@ -1,0 +1,16 @@
+body{
+}
+
+.contenaire{
+  width: 1020px;
+  border: 1px solid grey;
+  border-width: medium;
+  margin: 0 auto;
+  padding: 35px;
+}
+
+.Exemple{
+  background-color: grey;
+  border-radius: 15px;
+  padding-left: 20px;
+}

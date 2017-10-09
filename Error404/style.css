@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0%;
+}
+
+body {
+  background: url("./kameha.jpg") center no-repeat;
+  height: 100vh;
+  width: 100%;
+  background-size: 100vw;
+  position: relative;
+}
+
+h1 {
+  font-size: 10vh;
+  color: #1c9ce5;
+}
+
+p {
+  font-size: 6vh;
+  color: #1c9ce5;
+}
+
+button {
+  font-size: 20px;
+}
+
+.shake-opacity {
+  position: absolute;
+  left: 20vw;
+  top: 40vh;
+  width: 20vw;
+  min-width: 300px
+}
