@@ -10,17 +10,47 @@ p {
 }
 
 .star-wars {
-  width: 600px;
+  width: 1000px;
   height: 1000px;
-  margin: 0 auto;
+  margin: 100px auto;
   text-align: justify;
-  transform: perspective(400px) rotateX(25deg);
+  transform: perspective(400px) rotateX(15deg);
+}
+
+.a-long-time-ago p {
+  margin-top: 300px;
+  text-align: center;
+  font-size: 32px;
+  font-family: sans-serif;
+  color: #4bd5ee;
+  opacity: 0;
+  animation-delay: 1s;
+  animation-duration: 3s;
+  animation-name: a-long-time-ago;
+}
+
+@keyframes a-long-time-ago {
+  0% {
+    opacity: 0;
+  }
+
+  20% {
+    opacity: 1;
+  }
+
+  80% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
 }
 
 .crawl {
   position: relative;
   transform-origin: 50% 100%;
-  font-size: 70px;
+  font-size: 80px;
   animation-name: starwars;
   animation-duration: 30s;
   animation-timing-function: linear;
@@ -28,12 +58,12 @@ p {
 
 @keyframes starwars {
   0% {
-    top: 0;
+    top: 500px;
     transform: rotateX(25deg) translateZ(0);
   }
 
   100% {
-    top: -10000px;
-    transform: rotateX(70deg) translateZ(1000px);
+    top: -5000px;
+    transform: rotateX(25deg) translateZ(1000px);
   }
 }
