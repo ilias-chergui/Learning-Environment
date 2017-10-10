@@ -15,6 +15,9 @@
 
 .photo {
   float: right;
+  height: 200px;
+  width: 300px;
+  margin-top: 50px;
 }
 
 .Titre {
@@ -43,3 +46,6 @@ h2 {
   color: #3388BB;
   border-bottom: 3px solid #3388BB;
 }
+ img {
+   height: 100%;
+ }
